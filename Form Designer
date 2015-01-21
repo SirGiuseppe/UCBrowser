@@ -1,0 +1,182 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Das Formular überschreibt den Löschvorgang, um die Komponentenliste zu bereinigen.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Wird vom Windows Form-Designer benötigt.
+    Private components As System.ComponentModel.IContainer
+
+    'Hinweis: Die folgende Prozedur ist für den Windows Form-Designer erforderlich.
+    'Das Bearbeiten ist mit dem Windows Form-Designer möglich.  
+    'Das Bearbeiten mit dem Code-Editor ist nicht möglich.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.MetroButton1 = New MetroControls.MetroButton()
+        Me.MetroButton2 = New MetroControls.MetroButton()
+        Me.Win8TextBox1 = New Win8UI.Win8TextBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.MetroButton5 = New MetroControls.MetroButton()
+        Me.MetroButton4 = New MetroControls.MetroButton()
+        Me.MetroButton3 = New MetroControls.MetroButton()
+        Me.GeckoWebBrowser1 = New Skybound.Gecko.GeckoWebBrowser()
+        Me.Panel1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'MetroButton1
+        '
+        Me.MetroButton1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.MetroButton1.BackgroundColorHover = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
+        Me.MetroButton1.BackgroundColorNormal = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.MetroButton1.BackgroundColorPressed = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(10, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.MetroButton1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(10, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.MetroButton1.DrawBorders = True
+        Me.MetroButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.MetroButton1.ForeColor = System.Drawing.Color.White
+        Me.MetroButton1.Location = New System.Drawing.Point(12, 12)
+        Me.MetroButton1.Name = "MetroButton1"
+        Me.MetroButton1.Size = New System.Drawing.Size(47, 27)
+        Me.MetroButton1.TabIndex = 1
+        Me.MetroButton1.Text = "<"
+        '
+        'MetroButton2
+        '
+        Me.MetroButton2.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.MetroButton2.BackgroundColorHover = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
+        Me.MetroButton2.BackgroundColorNormal = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.MetroButton2.BackgroundColorPressed = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(10, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.MetroButton2.BorderColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(10, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.MetroButton2.DrawBorders = True
+        Me.MetroButton2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.MetroButton2.ForeColor = System.Drawing.Color.White
+        Me.MetroButton2.Location = New System.Drawing.Point(65, 12)
+        Me.MetroButton2.Name = "MetroButton2"
+        Me.MetroButton2.Size = New System.Drawing.Size(47, 27)
+        Me.MetroButton2.TabIndex = 2
+        Me.MetroButton2.Text = ">"
+        '
+        'Win8TextBox1
+        '
+        Me.Win8TextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Win8TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Win8TextBox1.Location = New System.Drawing.Point(112, 14)
+        Me.Win8TextBox1.Name = "Win8TextBox1"
+        Me.Win8TextBox1.Size = New System.Drawing.Size(868, 20)
+        Me.Win8TextBox1.TabIndex = 3
+        '
+        'Panel1
+        '
+        Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel1.BackColor = System.Drawing.Color.Red
+        Me.Panel1.Controls.Add(Me.MetroButton5)
+        Me.Panel1.Controls.Add(Me.Win8TextBox1)
+        Me.Panel1.Controls.Add(Me.MetroButton4)
+        Me.Panel1.Controls.Add(Me.MetroButton3)
+        Me.Panel1.Location = New System.Drawing.Point(6, 2)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1103, 49)
+        Me.Panel1.TabIndex = 4
+        '
+        'MetroButton5
+        '
+        Me.MetroButton5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.MetroButton5.BackColor = System.Drawing.Color.Green
+        Me.MetroButton5.BackgroundColorHover = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(118, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.MetroButton5.BackgroundColorNormal = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MetroButton5.BackgroundColorPressed = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MetroButton5.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MetroButton5.DrawBorders = True
+        Me.MetroButton5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.MetroButton5.ForeColor = System.Drawing.Color.White
+        Me.MetroButton5.Location = New System.Drawing.Point(1060, 10)
+        Me.MetroButton5.Name = "MetroButton5"
+        Me.MetroButton5.Size = New System.Drawing.Size(40, 27)
+        Me.MetroButton5.TabIndex = 4
+        Me.MetroButton5.Text = "Home"
+        '
+        'MetroButton4
+        '
+        Me.MetroButton4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.MetroButton4.BackColor = System.Drawing.Color.Cyan
+        Me.MetroButton4.BackgroundColorHover = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(245, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.MetroButton4.BackgroundColorNormal = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.MetroButton4.BackgroundColorPressed = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(225, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.MetroButton4.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(225, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.MetroButton4.DrawBorders = True
+        Me.MetroButton4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.MetroButton4.ForeColor = System.Drawing.Color.White
+        Me.MetroButton4.Location = New System.Drawing.Point(1025, 10)
+        Me.MetroButton4.Name = "MetroButton4"
+        Me.MetroButton4.Size = New System.Drawing.Size(27, 27)
+        Me.MetroButton4.TabIndex = 3
+        Me.MetroButton4.Text = "<>"
+        '
+        'MetroButton3
+        '
+        Me.MetroButton3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.MetroButton3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MetroButton3.BackgroundColorHover = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(118, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.MetroButton3.BackgroundColorNormal = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MetroButton3.BackgroundColorPressed = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MetroButton3.BorderColor = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MetroButton3.DrawBorders = True
+        Me.MetroButton3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.MetroButton3.ForeColor = System.Drawing.Color.White
+        Me.MetroButton3.Location = New System.Drawing.Point(986, 10)
+        Me.MetroButton3.Name = "MetroButton3"
+        Me.MetroButton3.Size = New System.Drawing.Size(31, 27)
+        Me.MetroButton3.TabIndex = 2
+        Me.MetroButton3.Text = "GO"
+        '
+        'GeckoWebBrowser1
+        '
+        Me.GeckoWebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GeckoWebBrowser1.Location = New System.Drawing.Point(6, 57)
+        Me.GeckoWebBrowser1.Name = "GeckoWebBrowser1"
+        Me.GeckoWebBrowser1.Size = New System.Drawing.Size(1103, 471)
+        Me.GeckoWebBrowser1.TabIndex = 6
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.RoyalBlue
+        Me.ClientSize = New System.Drawing.Size(1116, 540)
+        Me.Controls.Add(Me.GeckoWebBrowser1)
+        Me.Controls.Add(Me.MetroButton2)
+        Me.Controls.Add(Me.MetroButton1)
+        Me.Controls.Add(Me.Panel1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "Form1"
+        Me.Text = "UC Browser"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents MetroButton1 As MetroControls.MetroButton
+    Friend WithEvents MetroButton2 As MetroControls.MetroButton
+    Friend WithEvents Win8TextBox1 As Win8UI.Win8TextBox
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents MetroButton5 As MetroControls.MetroButton
+    Friend WithEvents MetroButton4 As MetroControls.MetroButton
+    Friend WithEvents MetroButton3 As MetroControls.MetroButton
+    Friend WithEvents GeckoWebBrowser1 As Skybound.Gecko.GeckoWebBrowser
+
+End Class
